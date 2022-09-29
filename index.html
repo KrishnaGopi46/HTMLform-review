@@ -15,6 +15,18 @@
 		.male{
 			margin-left:60px;
 		}
+		.nation{
+			margin-left:35px;
+		}
+		.skill{
+			margin-left:80px;
+		}
+		.skills{
+			margin-left:120px;
+		}
+		.posts{
+			margin-left:120px
+		}
 	</style>
 </head>
 <body>
@@ -123,46 +135,49 @@
 			<input type="text" class="name" placeholder="Krishna Gopi C"><br><br>
 			
 			<label>Email</label>
-			<input type="emali" class="email" placeholder="Email"><br><br>
+			<input type="email" class="email" placeholder="Email"><br><br>
 			
 			<label for="gender">Gender</label>
 			<input type="radio" id="gender" name="genders" class="male" >Male
 			<input type="radio" id="gender" name="genders">Femlae<br><br>
 			
 			<label>Nationality:</label>
-			<select>
+			<select class="nation">
 				<option>INDIAN</option>
 				<option>SINGAPUR</option>
 				<option>UK</option>
 				<option>DUBAI</option>
 				<option>ENGLAND</option>
 				<option>SOUTH AFRICA</option>
-			</select><br>
+			</select><br><br>
 			
 			<label for="skill">Skills</label>
-			<input type="checkbox" id="skill">Asp Net
+			<input type="checkbox" id="skill" class="skill">Asp Net
 			<input type="checkbox" id="skill">Software Engineer<br>
-			<input type="checkbox" id="skill">Team Leader
-			<input type="checkbox" id="skill">Project manager<br>
+			<input type="checkbox" id="skill" class="skills">Team Leader
+			<input type="checkbox" id="skill">Project manager<br><br>
 			
 			<label for="gender">Post applying for</label>
-			<input type="radio" id="gender" name="genders" >Trainee
+			<input type="radio" id="gender" name="genders" class="post">Trainee
 			<input type="radio" id="gender" name="genders">Software Engineer<br>
-			<input type="radio" id="gender" name="genders" >Team Leader
-			<input type="radio" id="gender" name="genders">Project manager<br>
+			<input type="radio" id="gender" name="genders" class="posts">Team Leader
+			<input type="radio" id="gender" name="genders">Project manager<br><br>
 			
 			<label for="bio">Uplode Resume:</label>
 			<input type="search" id="bio" name="bio">
-			<input type="file"><br>
+			<input type="file"><br><br>
 			
 			<label>Further comments:</label>
-			<textarea  cols="60" rows="5" placeholder="sample resume text..."></textarea><br>
+			<textarea  cols="60" rows="5" placeholder="sample resume text..."></textarea><br><br>
 			
 			<input type="checkbox">
-			<label>Notify me the status via Email</label><br>
+			<label>Notify me the status via Email</label><br><br>
 			
 			<input type="radio">
-			<label>I agree to terms & conditions</label>
+			<label>I agree to terms & conditions</label><br><br>
+			
+			<input type="submit" value="submit">
+			<input type="reset">
 	</fieldset>
 	
 </form>
